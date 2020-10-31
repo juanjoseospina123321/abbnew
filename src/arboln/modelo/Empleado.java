@@ -12,7 +12,7 @@ import java.io.Serializable;
  * @author Juan Jose Ospina B
  */
 public class Empleado implements Serializable {
-    private String idJefe;
+ 
     private String idEmpleado;
     private String NombreEmpleado;
     private double SueldoEmpleado;
@@ -20,20 +20,14 @@ public class Empleado implements Serializable {
     public Empleado() {
     }
 
-    public Empleado(String idJefe, String idEmpleado, String NombreEmpleado, double SueldoEmpleado) {
-        this.idJefe = idJefe;
+    public Empleado( String idEmpleado, String NombreEmpleado, double SueldoEmpleado) {
+        
         this.idEmpleado = idEmpleado;
         this.NombreEmpleado = NombreEmpleado;
         this.SueldoEmpleado = SueldoEmpleado;
     }
 
-    public String getIdJefe() {
-        return idJefe;
-    }
 
-    public void setIdJefe(String idJefe) {
-        this.idJefe = idJefe;
-    }
 
     public String getIdEmpleado() {
         return idEmpleado;
