@@ -6,6 +6,7 @@
 package arbolbinario.modeloespecial;
 
 import arbolbinario.modelo.excepciones.ArbolBinarioException;
+import arboln.modelo.NodoN;
 import java.io.Serializable;
 
 /**
@@ -14,6 +15,7 @@ import java.io.Serializable;
  */
 public class ArbolBinario implements Serializable{
     private Nodo raiz;
+    private int sumaPrecios;
     
      public Nodo getRaiz() {
         return raiz;
@@ -46,7 +48,9 @@ public class ArbolBinario implements Serializable{
             ubicacion.calcularSuma();
         }
     }
-
+ 
+  
+    
     
     
 }

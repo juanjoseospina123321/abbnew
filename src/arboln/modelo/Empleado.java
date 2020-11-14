@@ -52,11 +52,13 @@ public class Empleado implements Serializable {
     public void setSueldoEmpleado(double SueldoEmpleado) {
         this.SueldoEmpleado = SueldoEmpleado;
     }
-  
 
-   
-
-    
-
-   
+    /*public void ascenso (NodoN EmpleadoAscender, NodoN NuevaPosicion){
+        
+        NodoN temp = NuevaPosicion;
+        
+        NuevaPosicion.setDato(EmpleadoAscender.getDato());
+        EmpleadoAscender.setDato(temp.getDato());
+        
+    }*/
 }
